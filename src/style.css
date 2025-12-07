@@ -1,0 +1,27 @@
+
+header {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+header a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+    border-radius: 5px;
+    padding: 8px 16px;
+    transition: background-color 0.3s, color 0.3s;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+}
+header a:hover {
+    background-color: rgb(94, 82, 82);
+    color: white;
+}
+
+.inline-wsmall h4, .inline-wsmall span {
+    display: inline;
+}   
